@@ -11,6 +11,7 @@ html, body, main {
     padding: 0;
     margin: 0;
     font-family: 'Kumbh Sans', sans-serif;
+    color: var(--blue-dark-desaturated);
 }
 
 body {
@@ -55,7 +56,7 @@ main {
 
 .light {
     font-weight: 400;
-    color: var(--gray-dark);
+    color: var(--blue-dark-grayish);
 }
 
 .meta {
@@ -80,6 +81,7 @@ main {
 
 .top img {
     position: relative;
+    width: 100px;
     height: 100px;
     border-radius: 50%;
     border: 5px solid white;
@@ -123,7 +125,11 @@ footer {
 }
 
 .attribution a {
-    color: hsl(228, 45%, 44%);
+    color: white;
+}
+
+.attribution a:visited {
+    color: blue;
 }
 
 @media screen and (min-width: 768px ) {
